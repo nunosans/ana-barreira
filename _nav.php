@@ -5,65 +5,69 @@
 
 <!-- Main Menu -->
 <ul id="nav">
+  <li>
+    Collections:
+  </li>
+  <ul>
     <li>
-    	Collections:
+      <!-- if this is the current page, change this nav item style -->
+      <a href="/album/portraits-i/" <?php if($page=="portraits-i") {echo 'class="active"';} ?>>
+        <!-- album name -->
+        Portraits I
+        <!-- arrow to display on hover -->
+        <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
+      </a>
+      <!-- if this is the current page, show it's corresponding prev/next buttons -->
+      <?php if($page=="portraits-i"): ?>
+        <span id="loader"></span>
+        <span id="previous">previous</span> / <span id="next">next</span>
+      <?php endif; ?>
     </li>
-    <ul>
-    	<li>
-    		<a href="/album/girls/" <?php if($page=="girls") {echo 'class="active"';} ?>> 	<!-- if this is the current page, change this nav item style -->
-    			Girls 																		<!-- get this album name -->
-    			<img src="/graphics/arrow-white.png" width="11" height="11" alt="">			<!-- arrow to display on hover -->
-    		</a>
-    		<?php if($page=="girls"): ?> 													<!-- if this is the current page, show it's corresponding prev/next buttons -->
-    			<span id="loader"></span>
-    			<span id="previous">previous</span> / <span id="next">next</span>
-    		<?php endif; ?>
-    	</li>	
-    	<li>
-    		<a href="/album/boys/" <?php if($page=="boys") {echo 'class="active"';} ?>>
-    			Boys
-    			<img src="/graphics/arrow-white.png" width="11" height="11" alt="">
-    		</a>
-    		<?php if($page=="boys"): ?>
-    			<span id="loader"></span>
-    			<span id="previous">previous</span> / <span id="next">next</span>
-    		<?php endif; ?>
-    	</li>
-    	<li>
-    		<a href="/album/editorial/" <?php if($page=="editorial") {echo 'class="active"';} ?>>
-    			Editorial
-    			<img src="/graphics/arrow-white.png" width="11" height="11" alt="">
-    		</a>
-    		<?php if($page=="editorial"): ?>
-    			<span id="loader"></span>
-    			<span id="previous">previous</span> / <span id="next">next</span>
-    		<?php endif; ?>
-    	</li>
-    	<li>
-    		<a href="/album/commissions/" <?php if($page=="commissions") {echo 'class="active"';} ?>>
-    			Commissions
-    			<img src="/graphics/arrow-white.png" width="11" height="11" alt="">
-    		</a>
-    		<?php if($page=="commissions"): ?>
-    			<span id="loader"></span>
-    			<span id="previous">previous</span> / <span id="next">next</span>
-    		<?php endif; ?>
-    	</li>
-    	<li>
-    		<a href="/album/personal/" <?php if($page=="personal") {echo 'class="active"';} ?>>
-    			Personal
-    			<img src="/graphics/arrow-white.png" width="11" height="11" alt="">
-    		</a>
-    		<?php if($page=="personal"): ?>
-    			<span id="loader"></span>
-    			<span id="previous">previous</span> / <span id="next">next</span>
-    		<?php endif; ?>
-    	</li>
-    </ul>
     <li>
-    	<a href="/about/" <?php if($page=="about") {echo 'class="active"';} ?>>
-    		About &amp; Contact
-    		<img src="/graphics/arrow-black.png" width="11" height="11" alt="">
-    	</a>
+      <a href="/album/portraits-ii/" <?php if($page=="portraits-ii") {echo 'class="active"';} ?>>
+        Portraits II
+        <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
+      </a>
+      <?php if($page=="portraits-ii"): ?>
+        <span id="loader"></span>
+        <span id="previous">previous</span> / <span id="next">next</span>
+      <?php endif; ?>
     </li>
+    <li>
+      <a href="/album/fashion/" <?php if($page=="fashion") {echo 'class="active"';} ?>>
+        Fashion
+        <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
+      </a>
+      <?php if($page=="fashion"): ?>
+        <span id="loader"></span>
+        <span id="previous">previous</span> / <span id="next">next</span>
+      <?php endif; ?>
+    </li>
+    <li>
+      <a href="/album/commercial/" <?php if($page=="commercial") {echo 'class="active"';} ?>>
+        Commercial
+        <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
+      </a>
+      <?php if($page=="commercial"): ?>
+        <span id="loader"></span>
+        <span id="previous">previous</span> / <span id="next">next</span>
+      <?php endif; ?>
+    </li>
+    <li>
+      <a href="/album/personal/" <?php if($page=="personal") {echo 'class="active"';} ?>>
+        Personal
+        <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
+      </a>
+      <?php if($page=="personal"): ?>
+        <span id="loader"></span>
+        <span id="previous">previous</span> / <span id="next">next</span>
+      <?php endif; ?>
+    </li>
+  </ul>
+  <li>
+    <a href="/about/" <?php if($page=="about") {echo 'class="active"';} ?>>
+      About &amp; Contact
+      <img src="/graphics/arrow-black.png" width="11" height="11" alt="">
+    </a>
+  </li>
 </ul>
