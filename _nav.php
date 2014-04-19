@@ -45,7 +45,7 @@
     </li>
     <li>
       <a href="/album/music/" <?php if($page=="music") {echo 'class="active"';} ?>>
-        Commercial
+        Music
         <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
       </a>
       <?php if($page=="music"): ?>
