@@ -44,11 +44,11 @@
       <?php endif; ?>
     </li>
     <li>
-      <a href="/album/commercial/" <?php if($page=="commercial") {echo 'class="active"';} ?>>
+      <a href="/album/music/" <?php if($page=="music") {echo 'class="active"';} ?>>
         Commercial
         <img src="/graphics/arrow-white.png" width="11" height="11" alt="">
       </a>
-      <?php if($page=="commercial"): ?>
+      <?php if($page=="music"): ?>
         <span id="loader"></span>
         <span id="previous">previous</span> / <span id="next">next</span>
       <?php endif; ?>

@@ -1,4 +1,4 @@
-<?php $page='commercial'; include_once($_SERVER['DOCUMENT_ROOT']."/_head.php"); ?>
+<?php $page='music'; include_once($_SERVER['DOCUMENT_ROOT']."/_head.php"); ?>
 
 <a href="/"><img class="title" src="/graphics/logo.png" onselectstart="return false;" ondragstart="return false;"></a>
 
