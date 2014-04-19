@@ -92,9 +92,9 @@ london college of fashion, student, ual, arts london, portuguese, portugal" />
 
 <?php
 
-	$author='Savant';
-	$authorLink="http://savantstudio.co.uk/";
-	$authorEmail="mail@savantstudio.co.uk";
+	$author='Nuno Coelho Santos';
+	$authorLink="http://nunocoelhosantos.com/";
+	$authorEmail="nuno@nunocoelhosantos.com";
 
 	$client='Ana Barreira';
 	$clientLink="http://anabarreira.com/";
