@@ -4,7 +4,7 @@
 
 <head>
 
-	<title>ANA BARREIRA | LONDON +44 (0)7531 447 730</title>
+	<title>ANA BARREIRA | LONDON +44 (0)7804 408 955</title>
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="icon" type="image/png" href="favicon.ico"/>
